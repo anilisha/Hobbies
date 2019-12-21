@@ -1,0 +1,144 @@
+/************************************************************************************************
+  Description: stylsheet for index.htm
+  Author: Anilisha Gurung
+  Assignment 2
+  Question:5a
+  ***********************************************************************************************/ 
+  
+ /*background,width and margin of the whole page*/
+ html{
+	background:#DDA0DD;
+	width: 800px;
+	margin: 10px 150px 100px 250px;
+ }
+ 
+ /*Adjust the font and shadow for the whole box*/
+section{
+	font-family: "Verdana", sans-serif;
+	box-shadow: 0 0 100px #000000;
+	border: 5px solid black;
+}
+  	
+/*header box layouts*/
+#header{
+	padding:25px;
+	background:linear-gradient(-45deg, plum , whitesmoke , khaki);
+	border-bottom-style: solid;
+}
+.logo{
+	float:left;
+	padding: 2px;
+}
+  	
+/*Layout for horizontal list menu*/
+
+ #navbar ul{
+	overflow: hidden;
+	font-size: 15px;
+	background:linear-gradient(-45deg, plum , whitesmoke , khaki);
+	border-bottom-style: solid;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 5px;
+ }
+
+
+#navbar li{
+	margin: 0 auto;
+	padding: 5px;
+	float:left;
+	border-right: 1px solid #000000;
+}
+
+
+#navbar a {
+	margin:0 15px 0 15px;
+    text-align: center;
+    padding: 5px;
+    text-decoration:underline;
+}
+
+#navbar li a:hover {
+    background-color: #ffcccc;
+}
+
+
+#navbar .active{
+	background-color:#FFCCCC;
+	text-decoration:none;
+}
+h1{
+	font-size: 35px;
+	text-indent:20px;
+}
+  
+h2::first-letter{
+	font-size: 200%;
+}
+  
+h2{
+	font-size: 25px;
+}
+	
+h3{
+	font-size: 20px;
+	text-indent:20px;
+}
+	
+a{
+	text-align:center;
+	color:	#20B2AA;
+	font-weight: bold;
+	
+}
+
+/*adding space in between the lists*/
+li{
+	margin: 0 0 5px 0;
+}
+ 
+/*Could not really figure out how to change the backgrounf of the sidebar*/
+#navlist{
+    float: left;
+    width: 175px;
+    margin:30px;
+    padding: 0px;
+	overflow: hidden;
+    background-color: #FFB6C1;
+}
+
+#navlist ul{
+	 list-style-type: none;
+	 margin:0;
+	 padding:0;
+}
+#navlist  li{
+	height:25px;
+	width:100%;
+	 margin:10px 15px 10px 45px; 
+	 
+}
+
+#navlist a{
+	text-decoration: none;
+}
+
+#navlist li a:hover {
+	color: #FFB6C1;
+}
+
+article{
+	width:519px;
+    padding: 10px;
+    background-color: #FFB6C1;
+    overflow: auto;
+}
+
+/*footer layouts*/
+footer{
+	padding: 3px;
+	border-top-style: solid;
+	background:linear-gradient(-45deg, khaki, whitesmoke, plum);
+	font-size: 13px;
+	text-align: center;
+}
